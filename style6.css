@@ -1,0 +1,26 @@
+body
+{
+    background: linear-gradient(480deg, rgb(160, 50, 101), rgb(60, 26, 153), rgb(0, 211, 0), rgb(165, 52, 165));
+    margin: 0px;
+    padding: 0px;
+}
+
+p
+{
+    color: rgb(240, 156, 77);
+    padding: 7px;
+    margin: 5px;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+}
+
+h1
+{
+    color: rgb(105, 170, 30);
+    padding: 6px;
+    margin: 4px;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+}

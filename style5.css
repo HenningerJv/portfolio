@@ -1,0 +1,16 @@
+body
+{
+    background: linear-gradient(120deg, rgb(70, 139, 113), rgb(197, 70, 10));
+    padding: 0px;
+    margin: 0px;
+}
+
+img
+{
+    margin-left: 0px;
+    padding: 19px;
+    flex-direction: column;
+    align-items: left;
+    display: flex;
+    height: 300px;
+}
