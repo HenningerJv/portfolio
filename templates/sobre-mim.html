@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style2.css') }}">
+</head>
+<body>
+
+    <section>
+        <nav>
+            <a href="{{ url_for('portfolio') }}" class="logo">Voltar</a>
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}" class="active">Home</a>
+                    <li>
+                        <a href="#" class="active">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('projetos') }}" class="active">Projetos</a>
+                        <li>
+                            <a href="{{ url_for('redes_sociais') }}" class="active">Redes Sociais</a>
+                        </li>
+                    </li>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <h1>Sobre mim</h1>
+    <p>Nessa página eu conto tudo sobre mim e como virei Gamer.</p>
+    <div>
+        <img src="{{ url_for('static', filename='imgs/gamer.jpg') }}" class="imgbg" alt="imgbg">
+    </div>
+    <p>Tudo começou quando depois de um dia de colégio em E.A.D, eu pensei em mostrar minhas habilidades e conhecimentos de videogames pelo mundo. Foi aí que tive a ideia de fazer uma página gamer no instagram. Hoje, ele é bem-sucessido. depois, me tornei streamer para complementar o canal. A plataforma que usei e uso até hoje é a Twitch.</p>
+</body>
+</html>

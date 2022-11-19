@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style5.css') }}">
+</head>
+<body>
+
+    <section>
+        <nav>
+            <a href="{{ url_for('portfolio') }}" class="logo">VOLTE AQUI!</a>
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}" class="active">Home</a>
+                    <li>
+                        <a href="{{ url_for('sobre_mim') }}" class="active">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="#" class="active">Projetos</a>
+                        <li>
+                            <a href="{{ url_for('redes_sociais') }}" class="active">Redes Sociais</a>
+                        </li>
+                    </li>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <h1>Projetos</h1>
+    <p>Nessa página, eu digo quais são meus projetos que podem fazer evoluções no mundo.</p>
+    <p>Meus projetos de vida são: Entrar num campeonato gamer, participar de um torneio de programação na minha faculdade e participar de um evento de música.</p>
+    <img src="{{ url_for('static', filename='imgs/tecred.png') }}" alt="imgbg">
+</body>
+</html>

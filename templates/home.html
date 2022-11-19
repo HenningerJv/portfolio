@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style4.css') }}">
+</head>
+<body>
+
+    <section>
+        <nav>
+            <a href="{{ url_for('portfolio') }}" class="logo">Principal</a>
+            <ul>
+                <li>
+                    <a href="#" class="active">Home</a>
+                    <li>
+                        <a href="{{ url_for('sobre_mim') }}" class="active">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('projetos') }}" class="active">Projetos</a>
+                        <li>
+                            <a href="{{ url_for('redes_sociais') }}" class="active">Redes Sociais</a>
+                        </li>
+                    </li>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <h1>Home</h1>
+    <p>Aqui eu conto quais são os programas que eu uso para trabalhar.</p>
+
+    <p>Os programas que eu uso são:</p>
+
+    <img src="{{ url_for('static', filename='imgs/python-logo.jpg') }}" class="imgbg" alt="imgbg">
+    <img src="{{ url_for('static', filename='imgs/html-logo.png') }}" class="imgbg" alt="imgbg">
+    <img src="{{ url_for('static', filename='imgs/css-logo.jpg') }}" class="imgbg" alt="imgbg">
+    <img src="{{ url_for('static', filename='imgs/mysql-logo.png') }}" class="imgbg" alt="imgbg">
+</body>
+</html>

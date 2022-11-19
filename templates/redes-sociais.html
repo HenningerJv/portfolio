@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Redes Sociais</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style6.css') }}">
+</head>
+<body>
+
+    <section>
+        <nav>
+            <a href="{{ url_for('portfolio') }}" class="logo">JVH The Gamer</a>
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}" class="active">Home</a>
+                    <li>
+                        <a href="{{ url_for('sobre_mim') }}" class="active">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('projetos') }}" class="active">Projetos</a>
+                        <li>
+                            <a href="#" class="active">Redes Sociais</a>
+                        </li>
+                    </li>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <h1>Redes sociais</h1>
+    <p>Aqui você encontra quais as redes sociais eu uso para nos comunicarmos.</p>
+    <div class="social">
+        <p>Minhas redes sociais são:</p>
+        <a href="https://www.twitch.tv/jvhthegamer" target="_blank">https://www.twitch.tv/jvhthegamer</a>
+        <br><br>
+        <a href="https://www.instagram.com/jvhthegamer_/" target="_blank">https://www.instagram.com/jvhthegamer_/</a>
+        <p>Whatsapp: (21)9654-0042</p>
+        <a href="https://www.facebook.com/josevictor.henninger/" target="_blank">https://www.facebook.com/josevictor.henninger/</a>
+        <br><br>
+        <a href="https://github.com/HenningerJv" target="_blank">https://github.com/HenningerJv</a>
+        <p>E-mail: josevictor.henninger@gmail.com</p>
+    </div>
+</body>
+</html>

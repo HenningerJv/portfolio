@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+<body>
+    
+    <section>
+        <nav>
+            <a href="#" class="logo">JVH The Gamer</a>
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}" class="active">Home</a>
+                    <li>
+                        <a href="{{ url_for('sobre_mim') }}" class="active">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('projetos') }}" class="active">Projetos</a>
+                        <li>
+                            <a href="{{ url_for('redes_sociais') }}" class="active">Redes Sociais</a>
+                        </li>
+                    </li>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    
+
+    <div class="conteudo-texto">
+
+        <p>Olá</p>
+        <p>Meu nome é José Victor Henninger</p>
+        <p>Eu sou aluno de Desenvolvimento de Software Multiplataforma</p>
+        <button class="btn1">Saiba mais</button>
+    </div>
+    
+    <div>
+        
+        <img src= "{{ url_for('static', filename='imgs/tec.png') }}" class="imgbg" alt="imgbg">
+    
+    </div>
+    
+    <div>
+            	 
+        <img src="{{ url_for('static', filename='imgs/fundo.webp') }}" class="imgbg" alt="imgbg">
+
+   </div>
+
+   <div class="conteudo-sobre-mim">
+    	
+    <img src="{{ url_for('static', filename='imgs/tec.png') }}">
+
+    <div class="texto-sobre-mim">
+
+        <p>Sobre mim</p>
+        <p>Estudante de Desenvolvimento de Software Multiplataforma e Gamer.</p>
+
+        <p>Olá, meu nome é José Victor mas algumas pessoas me chamam de José. Eu sou estudante de Desenvolvimento de Software Multiplataforma pela Fatec e sou Streamer nas horas Vagas.</p>
+        <p>
+            Atualmente, estou estudando Desenvolvimento de Software Multiplataforma. Tenho 19 anos. Sou formado em inglês. Sou apaixonado por tecnologias e música.
+        </p>
+
+        <button class="btn1"> Saiba mais</button>
+        
+
+
+
+    </div>
+</div>
+
+<div class="servicos">
+
+    <div class="servicos-textos">
+
+        <p></p>
+        <p>Como posso lhe ajudar</p>
+        <p>Escolha uma dessas opções abaixo e deixe suas informações para lhe fornecer ajuda.</p>
+        
+    </div>
+
+    <div class="conteudo-box">
+
+
+        <div class="box1">
+            <span>1</span>
+
+            <p class="headid">Trabalho com</p>
+
+            <p class="detalhes">
+                       Aqui diz quais são os aplicativos eu uso para trabalhar.
+                      <br>
+                     </p>
+
+                      <button>Saiba mais</button>
+        
+
+        </div>
+
+        <div class="box2">
+            <span>2</span>
+
+            <p class="headid">Sobre mim</p>
+
+            <p class="detalhes">
+                      Aqui, eu conto curosidades sobre mim e coisas que faço no decorrer da vida.
+                      <br>
+                      </p>
+
+                      <button>Ler aqui</button>
+        
+
+        </div>
+
+        <div class="box3">
+            <span>3</span>
+
+            <p class="headid">Projetos</p>
+
+            <p class="Projeto">
+                       Aqui você diz quais são suas sugestões de projetos.
+                      <br>
+                      </p>
+
+                      <button>Leia mais</button>
+        
+
+        </div>
+
+        <div class="box4">
+            <span>4</span>
+
+            <p class="headid">Sua opnião</p>
+
+            <p class="Contato">
+                      Aqui você deixa uma opnião sobre essa página.
+                      <br>
+                     </p>
+
+                      <button>Opinar</button>
+        
+        </div>
+        
+    </div>
+    
+
+
+
+</div>
+
+</body>
+</html>
