@@ -242,11 +242,10 @@ button:active
 	
 }
 
- .servicos-textos
+.servicos-textos
 {
 	width: 500px;
 	margin: 50px 0px 0px 50px;
-	
 }
 
 .box1, .box2, .box3, .box4
@@ -458,12 +457,331 @@ footer p:nth-child(2)
 	{
 		height: 600px;
 	}
-}
 
-@media (max-width: 760px)
-{
 	.texto-sobre-mim
 	{
 		width: 480px;
+	}
+
+	section
+	{
+    	width: 100%;
+    	height: 95vh;
+    	background-image: url(../imgs/fundo.webp);
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	position: relative;
+	}
+
+	.conteudo-texto p:nth-child(1)
+	{
+	    font-family: calibri;
+	    font-weight: bold;
+	    color: rgb(52, 179, 41);
+	    font-size: 60px;
+	}
+
+	.conteudo-texto p:nth-child(2)
+	{
+		font-family: calibri;
+		font-weight: bold;
+		letter-spacing: 1px;
+		color: rgb(188, 202, 106);
+		font-size: 45px;
+	}
+
+	.conteudo-texto p:nth-child(3)
+	{
+		font-family: myriad pro regular;
+		color: #0079a8;
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.conteudo-texto 
+	{
+		line-height: 13px;
+		margin: 45px 10px 25px;
+	}
+
+	.conteudo-texto 
+	{
+		position: absolute;
+		left: 15%;
+		top: 36%;
+		transform: translate(-13%, -40%);
+	}
+
+	.conteudo-texto button
+	{
+		width: 110px;
+		height: 43px;
+		border-radius: 13px;
+		font-family: calibri;
+		font-weight: bold;
+		font-size: 16px;
+		outline: none;
+		margin: 0px 20px;
+	}
+
+	.btn1
+	{
+		background-color: #910303;
+		border: 2px solid #024694;
+		color: #05ad51;
+	}
+
+	button:active
+	{
+		transform: scale(1.1);
+	}
+
+	.servicos-textos
+	{
+		width: 500px;
+		margin: 50px 0px 0px 50px;
+		
+	}
+
+	.box1, .box2, .box3, .box4
+	{
+		width: 300px;
+		height: 320px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-shadow: 2px 2px 12px rgb(115, 255, 1);
+		display: flex;
+		justify-content: center;
+		align-items:  center;
+		flex-direction: column;
+
+	}
+
+	.conteudo-box 
+	{
+		display: flex;
+		justify-content: space-between;
+		margin-left: 50px;
+		margin-right: 50px;
+		
+	}
+
+	.box1
+	{
+		background-image: url("../imgs/python-logo.jpg");
+	}
+
+
+	.box2
+	{
+		background-image: url("../imgs/gamer.jpg");
+	}
+
+
+	.box3
+	{
+		background-image: url("../imgs/projeto.png");
+	}
+
+	.box4
+	{
+		background-image: url("../imgs/fala.png");
+	}
+
+	.box1 span,
+	.box2 span,
+	.box3 span,
+	.box4 span
+	{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #e4d65e;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: calibri;
+		font-weight: bold;
+		margin-top: 10px;	
+	}
+
+	.box1 p:nth-child(2),
+	.box2 p:nth-child(2),
+	.box3 p:nth-child(2),
+	.box4 p:nth-child(2)
+	{
+		font-family: calibri;
+		font-size: 23px;
+		line-height: 0px;
+	}
+
+	.box1 p:nth-child(3),
+	.box2 p:nth-child(3),
+	.box3 p:nth-child(3),
+	.box4 p:nth-child(3)
+	{
+		font-family: calibri;
+		text-align: center;
+		width: 250px;
+		margin: 0px 0px 20px 0px;
+	
+}
+
+	.box1 button,
+	.box2 button,
+	.box3 button,
+	.box4 button
+	{
+		width: 100px;
+		height: 30px;
+		border:none;
+		outline: none;
+		border-radius: 5px;
+		margin-bottom: 10px;
+	}
+
+	.contato
+	{
+		width: 100%;
+		height: 280px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contato p
+	{
+		font-size: 30px;
+		font-family: calibri;
+		font-weight: bold;
+	}
+
+	.contato button
+	{
+		width: 200px;
+		height: 40px;
+		outline: none;
+		border:none;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	footer
+	{
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+
+	footer p
+	{
+		font-family: calibri;
+	}
+
+	footer p:nth-child(1)
+	{
+		font-weight: bold;
+		line-height: 10px;
+		font-size: 30px;
+	}
+
+	footer p:nth-child(2)
+	{
+		font-size: 16px;
+		color: #32b388;
+		width: 500px;
+		text-align: center;
+	}
+
+	.copy
+	{
+		color: #4e229e;
+		font-size: 13px;
+		position: absolute;
+		left: 50%;
+		bottom: 10px;
+		transform: translateX(-50%);
+	}
+
+	.conteudo-sobre-mim img
+	{
+		height: 250px;
+	}
+
+	.texto-sobre-mim 
+	{
+		width: 550px;
+	}
+
+	.cotexto-sobre  p:nth-child(1)
+	{
+		font-family: myriad pro;
+		font-weight: bold;
+		font-size: 23px;
+		line-height: 0px;
+	}
+
+	.texto-sobre-mim  p:nth-child(2)
+	{
+		font-size: 13px;
+		font-family: myriad pro;
+		font-weight: bold;
+		line-height: 5px;
+	}
+
+	.texto-sobre-mim p:nth-child(3),
+	.texto-sobre-mim p:nth-child(4)
+	{
+		font-family: calibri;
+		font-size: 16px;
+	}
+
+	.texto-sobre-mim button
+	{
+		width: 120px;
+		height: 40px;
+		outline: none;
+		border:none;
+		font-family: calibri;
+	}
+
+	.servicos
+	{
+		height: 600px;
+	}
+
+	.servicos-textos p:nth-child(1)
+	{
+		font-family: calibri;
+		font-weight: bold;
+		font-size:30px;
+		line-height: 0px;
+
+	}
+
+	.servicos-textos p:nth-child(2)
+	{
+		font-family: calibri;
+		font-weight: bold;
+		font-size:15px;
+		line-height: 5px;
+
+	}
+
+	.servicos-textos p:nth-child(3)
+	{
+		font-family: calibri;
+	}
+
+	.servicos-textos
+	{
+		width: 500px;
+		margin: 50px 0px 0px 50px;
 	}
 }

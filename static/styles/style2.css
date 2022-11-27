@@ -90,4 +90,20 @@ p
         padding: 15px;
         height: 235px;
     }
+
+    nav ul li a
+    {
+        margin: 30px;
+        font-family: Exo, sans-serif;
+        color: rgb(35, 79, 43);
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .logo
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(45, 111, 149);
+        font-size: 22px;
+    }
 }

@@ -84,4 +84,18 @@ img
         padding: 17px;
         height: 200px;
     }
+    
+    nav ul li a
+    {
+        margin: 30px;
+        font-family: Exo, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .logo
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+    }
 }

@@ -75,7 +75,47 @@ img
 
     .active
     {
-        font-size: 19px;
-        
+        font-size: 19px;   
     }
-}
+
+    nav
+    {
+        display: flex;
+        justify-content: left;
+        align-items: right;
+        height: 50px;
+        background-color: rgb(195, 108, 22);
+        box-shadow: 8px 5px 10px rgb(15, 16, 88);
+        padding: 0px 5%;
+    }
+
+    nav ul
+    {
+        display: flex;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+    nav ul li a
+    {
+        margin: 30px;
+        font-family: Exo, sans-serif;
+        color: rgb(12, 63, 97);
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .logo
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(211, 194, 3);
+        font-size: 22px;
+    }
+
+    .active
+    {
+        font-weight: bold;
+        color: rgb(12, 105, 93);
+        font-size: 25px;
+    }
+    }
